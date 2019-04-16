@@ -1,5 +1,5 @@
 <?php
-namespace FactoryPattern\SimpleFactory;
+namespace FactoryPattern;
 
 interface Sender
 {

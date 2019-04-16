@@ -1,5 +1,5 @@
 <?php
-namespace FactoryPattern\SimpleFactory;
+namespace FactoryPattern;
 
 class SmsSender implements Sender
 {

@@ -1,5 +1,7 @@
 <?php
 namespace FactoryPattern\SimpleFactory;
+use FactoryPattern\MailSender;
+use FactoryPattern\SmsSender;
 
 class StaticSendFactory
 {

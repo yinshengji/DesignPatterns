@@ -1,6 +1,9 @@
 <?php
 namespace FactoryPattern\SimpleFactory;
 
+use FactoryPattern\MailSender;
+use FactoryPattern\SmsSender;
+
 class SendFactory
 {
     const MAIL = 'mail';
@@ -9,7 +12,7 @@ class SendFactory
     /**
      * @param $type
      * @return MailSender|SmsSender
-     * @throws Exception
+     * @throws \Exception
      */
     public function make($type)
     {
