@@ -10,6 +10,7 @@ namespace FacadePattern;
 class Fund
 {
     private $stockOne;
+    private $stockTwo;
     public function __construct()
     {
         $this->stockOne = new stockOne();
